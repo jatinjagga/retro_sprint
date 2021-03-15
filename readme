@@ -1,0 +1,9 @@
+
+#to run the test
+npx wdio run ./wdio.conf.js
+
+#to generate allure report
+node_modules/.bin//allure generate allure-results/
+
+# opena allure report
+allure open
